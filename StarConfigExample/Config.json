@@ -1,0 +1,8 @@
+﻿{
+	"HttpPort": 8300,
+	"Email": "michael@bluth.com",
+	"User": "Michael Bluth",
+	"TimeOfRegistration": "2018-01-01T15:00:00.000000Z",
+	"IsActive":  true,
+	"Version":  4.3
+}

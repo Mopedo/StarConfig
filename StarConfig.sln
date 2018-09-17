@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarConfig", "StarConfig\StarConfig.csproj", "{7862E39A-58C0-411F-B36C-E4EB0A660CC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarConfigExample", "StarConfigExample\StarConfigExample.csproj", "{F6D0EFCF-4567-4934-A227-36A75D554820}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7862E39A-58C0-411F-B36C-E4EB0A660CC6}.Debug|x64.ActiveCfg = Debug|x64
+		{7862E39A-58C0-411F-B36C-E4EB0A660CC6}.Debug|x64.Build.0 = Debug|x64
+		{7862E39A-58C0-411F-B36C-E4EB0A660CC6}.Release|x64.ActiveCfg = Release|x64
+		{7862E39A-58C0-411F-B36C-E4EB0A660CC6}.Release|x64.Build.0 = Release|x64
+		{F6D0EFCF-4567-4934-A227-36A75D554820}.Debug|x64.ActiveCfg = Debug|x64
+		{F6D0EFCF-4567-4934-A227-36A75D554820}.Debug|x64.Build.0 = Debug|x64
+		{F6D0EFCF-4567-4934-A227-36A75D554820}.Release|x64.ActiveCfg = Release|x64
+		{F6D0EFCF-4567-4934-A227-36A75D554820}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D5A2AAB-45CA-4AD3-A68E-D03182A04855}
+	EndGlobalSection
+EndGlobal

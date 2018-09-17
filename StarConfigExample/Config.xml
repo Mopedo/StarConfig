@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+  <HttpPort>8300</HttpPort>
+  <Email>michael@bluth.com</Email>
+  <User>Michael Bluth</User>
+  <TimeOfRegistration>2018-01-01T15:00:00.000000Z</TimeOfRegistration>
+  <IsActive>true</IsActive>
+  <Version>4.3</Version>
+</config>
