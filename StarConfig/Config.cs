@@ -18,7 +18,7 @@ namespace StarConfig
     /// The dynamic persistent database object that holds the configuration data
     /// </summary>
     [Database]
-    public class Config : DDictionary, IDDictionary<Config, ConfigurationKeyValuePair>, IEntity
+    public class Config : DDictionary, IDDictionary<Config, ConfigKeyValuePair>, IEntity
     {
         private const string All = "SELECT t FROM StarConfig.Config t";
 
@@ -126,9 +126,10 @@ namespace StarConfig
             return config;
         }
 
-        public ConfigurationKeyValuePair NewKeyPair(Config dict, string key, object value)
+        /// <inheritdoc />
+        public ConfigKeyValuePair NewKeyPair(Config dict, string key, object value)
         {
-            return new ConfigurationKeyValuePair(dict, key, value);
+            return new ConfigKeyValuePair(dict, key, value);
         }
     }
 }
