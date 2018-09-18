@@ -8,6 +8,7 @@ namespace StarConfigExample
         public static void Main()
         {
             StarConfig.Config.Create(Application.Current.WorkingDirectory + "/Config.xml");
+            //StarConfig.Config.Create(Application.Current.WorkingDirectory + "/Config.json");
             
             Handle.GET("/config", () =>
             {

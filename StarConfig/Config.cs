@@ -84,6 +84,15 @@ namespace StarConfig
                         {
                             JToken resolveValueType()
                             {
+                                switch (item.Value.Type)
+                                {
+                                    case JTokenType.Integer: return item.Value.Value<long>();
+                                    case JTokenType.Float: return item.Value.Value<decimal>();
+                                    case JTokenType.Boolean: return item.Value.Value<bool>();
+                                    case JTokenType.Null: return null;
+                                    case JTokenType.Date: return item.Value.Value<DateTime>();
+                                }
+
                                 switch (item.Value.ToObject<string>())
                                 {
                                     case "true":
@@ -92,7 +101,7 @@ namespace StarConfig
                                     case "false":
                                     case "FALSE":
                                     case "False": return false;
-                                    case var dt when DateTime.TryParse(dt, null, AssumeLocal, out var dateTime): return dateTime;
+                                    case var dt when DateTime.TryParseExact(dt, "O", null, AssumeLocal, out var dateTime): return dateTime;
                                     case var nr when long.TryParse(nr, out var number): return number;
                                     case var dm when decimal.TryParse(dm, out var @decimal): return @decimal;
                                     case var str: return str;
