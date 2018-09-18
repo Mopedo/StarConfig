@@ -1,5 +1,7 @@
 # StarConfig
 
+StarConfig is a simple tool for creating and accessing a dynamic persistent configuration in a Starcounter application, that is read from an XML or JSON file on the local computer. The persistent storage of the configuration is implemented using (Dynamit)[https://github.com/Mopedo/Dynamit].
+
 ## Tutorial
 
 > See the StarConfig/StarConfigExample project for details and code examples
