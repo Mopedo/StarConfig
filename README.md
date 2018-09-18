@@ -2,6 +2,12 @@
 
 StarConfig is a simple open-source library for creating and accessing a dynamic persistent configurations in a Starcounter application, that is read from an XML or JSON file on the local computer. The persistent storage of the configuration is implemented using [Dynamit](https://github.com/Mopedo/Dynamit).
 
+StarConfig is distributed as a [.NET package on NuGet](https://www.nuget.org/packages/StarConfig), and an easy way to install it in an active Visual Studio project is by entering the following into the NuGet Package Manager console:
+
+```
+Install-Package StarConfig
+```
+
 ## Tutorial
 
 > See the StarConfig/StarConfigExample project for details and code examples
