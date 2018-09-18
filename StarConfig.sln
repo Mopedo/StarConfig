@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarConfig", "StarConfig\St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarConfigExample", "StarConfigExample\StarConfigExample.csproj", "{F6D0EFCF-4567-4934-A227-36A75D554820}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamit", "..\Dynamit\Dynamit\Dynamit.csproj", "{1C0568E7-1BF6-406D-A345-2A870C23F20C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,10 +21,6 @@ Global
 		{F6D0EFCF-4567-4934-A227-36A75D554820}.Debug|x64.Build.0 = Debug|x64
 		{F6D0EFCF-4567-4934-A227-36A75D554820}.Release|x64.ActiveCfg = Release|x64
 		{F6D0EFCF-4567-4934-A227-36A75D554820}.Release|x64.Build.0 = Release|x64
-		{1C0568E7-1BF6-406D-A345-2A870C23F20C}.Debug|x64.ActiveCfg = Debug|x64
-		{1C0568E7-1BF6-406D-A345-2A870C23F20C}.Debug|x64.Build.0 = Debug|x64
-		{1C0568E7-1BF6-406D-A345-2A870C23F20C}.Release|x64.ActiveCfg = Release|x64
-		{1C0568E7-1BF6-406D-A345-2A870C23F20C}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

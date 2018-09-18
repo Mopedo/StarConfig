@@ -3,7 +3,7 @@
 <package>
   <metadata>
     <id>StarConfig</id>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <authors>Erik von Krusenstierna</authors>
     <owners>Mopedo AB</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
