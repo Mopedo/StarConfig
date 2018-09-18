@@ -13,11 +13,12 @@ namespace StarConfig
 {
     /// <inheritdoc cref="DDictionary" />
     /// <inheritdoc cref="IDDictionary{T1,T2}" />
+    /// <inheritdoc cref="IEntity" />
     /// <summary>
     /// The dynamic persistent database object that holds the configuration data
     /// </summary>
     [Database]
-    public class Config : DDictionary, IDDictionary<Config, ConfigurationKeyValuePair>
+    public class Config : DDictionary, IDDictionary<Config, ConfigurationKeyValuePair>, IEntity
     {
         private const string All = "SELECT t FROM StarConfig.Config t";
 
