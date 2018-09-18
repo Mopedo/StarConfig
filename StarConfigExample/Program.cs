@@ -1,5 +1,4 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using Starcounter;
 
 namespace StarConfigExample
@@ -8,11 +7,12 @@ namespace StarConfigExample
     {
         public static void Main()
         {
+            StarConfig.Config.Create(Application.Current.WorkingDirectory + "/Config.xml");
             
             Handle.GET("/config", () =>
             {
-                var configuration = Configuration.Current
-                return JsonConvert.SerializeObject(Db.SQ);
+                var config = StarConfig.Config.Instance;
+                return JsonConvert.SerializeObject(config, Formatting.Indented);
             });
         }
     }
