@@ -8,7 +8,7 @@ StarConfig is a simple open-source library for creating and accessing a dynamic 
 
 Start by creating a configuration file in some folder on the computer. It can be either an XML file or a JSON file. XML files should have a root `config` node. JSON files should include a single object. Strings, integers, floats, booleans and datetimes (ISO 8601 strings) are accepted. XML values are parsed to the appropriate data types.
 
-There are two ways to instruct StarConfig to use a certain config file, either we assign a path to that file in the call to `StarConfig.Config.Create()`, or we assign it to an environment variable (StarConfig uses `StarConfigPath` by default, but any environment variable can be used). The environment variable is the included in the call to `StarConfig.Config.Create()`. Environment variables should be surrounded by `'%'` characters, for example `%myVariable%`.
+There are two ways to instruct StarConfig to use a certain config file, either we assign a path to that file in the call to `StarConfig.Config.Create()`, or we assign it to an environment variable (StarConfig uses `StarConfigPath` by default, but any environment variable can be used). The environment variable is then included in the call to `StarConfig.Config.Create()`. Environment variables should be surrounded by `'%'` characters, for example `%myVariable%`.
 
 
 ```csharp
