@@ -48,7 +48,6 @@ namespace StarConfigExample
 
             Handle.DELETE("/config", () =>
             {
-                // Use Starconfig.Config.Instance to access the configuration
                 var config = StarConfig.Config.Instance;
                 Db.TransactAsync(() =>
                 {
