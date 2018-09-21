@@ -34,8 +34,6 @@ namespace StarConfig
         /// the name of an environment variable to use to retrieve the path. Environment variables should be
         /// surrounded by '%' characters, for example '%myVariable%'.
         /// </summary>
-        /// <param name="path"></param>
-        /// <returns></returns>
         public static Config Create(string path = "%StarConfigPath%")
         {
             if (Path.IsPathRooted(path))
