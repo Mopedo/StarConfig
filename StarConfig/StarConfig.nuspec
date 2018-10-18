@@ -2,15 +2,15 @@
 
 <package>
   <metadata>
-    <id>StarConfig</id>
-    <version>0.0.4</version>
+    <id>StarConfig_2.4</id>
+    <version>1.0.1</version>
     <authors>Erik von Krusenstierna</authors>
     <owners>Mopedo AB</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://goo.gl/eJS8o9</licenseUrl>
     <projectUrl>https://github.com/Mopedo/StarConfig</projectUrl>
     <iconUrl>https://storage.googleapis.com/mopedo-resources/Regular_png_largeframe.png</iconUrl>
-    <description>Create and access dynamic XML and JSON application configurations with zero setup. For Starcounter 2.3.2.930 or later.</description>
+    <description>Create and access dynamic XML and JSON application configurations with zero setup. For Starcounter 2.4.0.6870 or later.</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>Mopedo Configuration Starcounter</tags>
